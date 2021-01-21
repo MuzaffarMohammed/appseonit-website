@@ -1,9 +1,3 @@
-/**
-* Template Name: Groovin - v2.2.0
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -14,11 +8,11 @@ body {
 }
 
 a {
-  color: #5c9f24;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #74c92d;
+  color:#3498db;
   text-decoration: none;
 }
 
@@ -56,13 +50,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# topbar
+--------------------------------------------------------------*/
+.icofont-envelope{
+	color:#fff;
+}
+.icofont-phone{
+	color:#fff;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding-top: 25px;
 }
 
 #header .logo {

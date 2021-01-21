@@ -112,9 +112,10 @@
   });
 
   // Real view height for mobile devices
-  if (window.matchMedia("(max-width: 767px)").matches) {
+  if (("(max-width: 767px)").matches) {
     $('#hero').css({
-      height: $(window).height()
+     
+	
     });
   }
 
