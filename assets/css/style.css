@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-//for menu underling on hovering
+#for menu underling on hovering
 nav-menu > ul > li > a:before {
   content: "";
   position: absolute;
