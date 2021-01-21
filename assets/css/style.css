@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding-top: 25px;
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.5);
 }
 
 #header .logo {
@@ -84,8 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 65px;
-  padding: 5px 0px;
+  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -698,11 +698,13 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+	 
   margin-bottom: 20px;
   text-align: center;
 }
 
 .services .icon {
+	 margin-top:20px;
   display: flex;
   justify-content: center;
 }
@@ -722,11 +724,12 @@ section {
 }
 
 .services .icon-box:hover .icon i {
+
   box-shadow: 0px 0 25px rgba(92, 159, 36, 0.3);
 }
 
 .services .icon-box:hover {
-  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.5);
 }
 
 .services .title {
