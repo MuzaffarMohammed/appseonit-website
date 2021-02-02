@@ -593,17 +593,27 @@ section {
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
+.icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0px 0px 0px;
+}
 
-.about .content .icon-box i {
+.about .content .icon-box i{
   font-size: 48px;
   float: left;
   color: #3498db;
 }
 
+.icon-box img{
+  float: left;
+  padding-right: 15px;
+}
+
 .about .content .icon-box p {
   font-size: 15px;
   color: #848484;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 
 .about .image {
