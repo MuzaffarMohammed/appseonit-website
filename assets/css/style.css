@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel-content {
-  text-align: center;
+  text-align: left;
 }
 
 #hero h2 {
@@ -463,16 +463,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   width: auto;
   height: auto;
-  background: rgba(255, 255, 255, 0.1);
+  background: #3498dbb8;
   border-radius: 50px;
   padding: 10px;
   transition: 0.3s;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255 255 255 / 78%);
 }
 
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.8);
+  background: #3498DB;
+  color: rgba(255 255 255 / 78%);
 }
 
 #hero .carousel-indicators li {
@@ -572,7 +572,7 @@ section {
 --------------------------------------------------------------*/
 
 .about .content {
-  padding: 30px 0;
+  padding: 0px 0;
 }
 
 .about .content h3 {
@@ -611,9 +611,9 @@ section {
 }
 
 .about .content .icon-box p {
-  font-size: 15px;
+  font-size: 14px;
   color: #848484;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .about .image {
