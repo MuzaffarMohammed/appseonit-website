@@ -1,5 +1,5 @@
 /**
-* Template Name: Groovin - v2.2.0
+* Template Name: Appseonit - v2.2.0
 * Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/

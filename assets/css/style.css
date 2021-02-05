@@ -218,6 +218,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
+#deep-drop-down{margin-left:3px;}
+
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
@@ -410,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel-content {
-  text-align: left;
+  text-align: center;
 }
 
 #hero h2 {
@@ -538,11 +540,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 
 section {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
-  background-color: #f1f1f1;
+  background-color: #3498db;
 }
 
 .section-title-services{
@@ -572,7 +574,7 @@ section {
 --------------------------------------------------------------*/
 
 .about .content {
-  padding: 0px 0;
+  padding: 30px 0;
 }
 
 .about .content h3 {
