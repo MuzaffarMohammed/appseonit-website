@@ -64,6 +64,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+ .twitter :hover{
+	/*color:#00acee;*/
+	color:#fff;
+}
+
+ .facebook :hover{
+	/*color:#3b5998;*/
+	color:#fff;
+}
+.instagram :hover{
+	color:#fff;
+}
+.linkedin :hover{
+	color:#fff;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -544,7 +560,7 @@ section {
 }
 
 .section-bg {
-  background-color: #3498db;
+  background-color: #fff;
 }
 
 .section-title-services{
@@ -704,8 +720,8 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+ /* -webkit-filter: grayscale(100);
+  filter: grayscale(100);*/
 }
 
 .clients img:hover {
@@ -733,6 +749,7 @@ section {
   padding-top: 15px;
   margin-bottom: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .services .icon {
