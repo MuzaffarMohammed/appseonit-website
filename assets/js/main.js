@@ -185,4 +185,9 @@
     items: 1
   });
 
+// page redirection logic 
+function redirect(path){
+  window.location.href = path;
+}
+
 })(jQuery);
