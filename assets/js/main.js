@@ -185,9 +185,9 @@
     items: 1
   });
 
+})(jQuery);
+
 // page redirection logic 
-function redirect(path){
+ function redirect(path){
   window.location.href = path;
 }
-
-})(jQuery);
