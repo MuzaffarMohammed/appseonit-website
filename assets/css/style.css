@@ -397,6 +397,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+}
+
 #hero .carousel-item {
   width: 100%;
   height: 80vh;
@@ -405,6 +411,12 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   position: relative;
     background-image: linear-gradient(to right, #286A97, #012D4B 40%);
+}
+
+@media (max-width: 768px) {
+  #hero .carousel-item {
+    height: 100vh;
+  }
 }
 
 #hero .carousel-item::before {
@@ -465,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-inner .active, #hero .carousel-inner .carousel-item-next.carousel-item-left, #hero .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 0.5s;
+  transition: 1.5s;
   background-image: linear-gradient(to right, #286A97, #012D4B 40%);
 }
 
@@ -540,15 +552,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .firstBanner_leftImg{
-	margin-top:100px; 
+	margin-top:110px; 
 	float:left;
 }
 
+@media (max-width: 768px) {
+  #hero .firstBanner_leftImg {
+    margin-top:20px; 
+	float:center;
+  }
+}
+
 #hero .firstBanner_rightImg{
-	margin-top:115px; 
+	margin-top:150px; 
 	float:right;
 }
 
+@media (max-width: 768px) {
+  #hero .firstBanner_rightImg {
+    margin-top:-10px; 
+	float:center;
+	padding-left:30px;
+  }
+}
+
+#hero .carouselBottomBanner_DownImg{
+	margin-top:-110px;
+}
+
+@media (max-width: 768px) {
+  #hero .carouselBottomBanner_DownImg {
+    margin-top:40px; 
+	float:center;
+	height:100%;
+	width:100%;
+  }
+}
 
 @media (max-width: 768px) {
   #hero h2 {
