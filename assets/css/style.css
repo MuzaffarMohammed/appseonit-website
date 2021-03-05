@@ -53,7 +53,12 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # topbar
 --------------------------------------------------------------*/
-
+.topbar{
+  height:25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#3498db;
+}
 .icofont-envelope {
   font-size: 15px;
   color: #fff;
@@ -88,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding-top: 25px;
+  padding: 30px 20px 5px 20px;
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.5);
 }
 
@@ -617,12 +622,6 @@ section {
   background-color: #fff;
 }
 
-.services .section-title{
-  text-align: center;
-  padding-bottom: 0px;
-  padding-top:10px;
-}
-
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -639,11 +638,23 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
 }
 
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .section-title{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.about .section-title h2{
+  margin-bottom: 0px;
+}
 
 .about .content {
   padding: 30px 0;
@@ -656,6 +667,9 @@ section {
 
 .about .content p {
   margin-bottom: 0;
+  text-align: left;
+  font-size: 14px;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
 }
 
 .about .content .icon-box {
@@ -686,8 +700,9 @@ section {
 
 .about .content .icon-box p {
   font-size: 14px;
-  color: #848484;
-  /* margin-left: 70px; */
+  color: #000;
+  margin-left: 0px;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
 }
 
 .about .image {
@@ -798,91 +813,113 @@ section {
 --------------------------------------------------------------*/
 
 .services {
+  /* background: url("../img/services.png") no-repeat fixed center;  
+  background-size: cover; */
   background: aliceblue;
 }
 
-.services .icon-box {
-  height: 320px;
-  padding-top: 15px;
-  margin-bottom: 20px;
-  text-align: center;
-  cursor: pointer;
+.services .section-title{
+ text-align: center;
+ padding-bottom: 0px;
+ padding-top:10px;
 }
 
+.services .section-title h2{
+   color: #3498DB;
+}
+
+.services .icon-box {
+ height: 400px;
+ padding-top: 15px;
+ /* margin-bottom: 20px; */
+ text-align: center;
+ cursor: pointer;
+ background-color: aliceblue;
+}
+
+/* .center {
+ margin: 0 auto;
+ width: 100%;
+} */
+
 .services .icon {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
 }
 
 .services .icon i {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
-  background: #fff;
-  border-radius: 50%;
-  transition: 0.5s;
-  color: #3498db;
-  font-size: 40px;
-  overflow: hidden;
-  padding-top: 20px;
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.40);
+ width: 70px;
+ height: 70px;
+ margin-bottom: 20px;
+ background: #fff;
+ border-radius: 50%;
+ transition: 0.5s;
+ color: #3498db;
+ font-size: 36px;
+ overflow: hidden;
+ padding-top: 19px;
+ box-shadow: 0px 0 25px rgba(0, 0, 0, 0.40);
 }
 
 .services .icon-box:hover .icon i {
-  box-shadow: 0px 0 25px rgba(52, 152, 219, 0.9);
+ box-shadow: 0px 0 25px rgba(52, 152, 219, 0.9);
 }
 
 .services .icon-box:hover {
-  height: 320px;
-  padding-top: 15px;
-  box-shadow: 0px 0px 20px 0px rgb(52 152 219 / 90%);
-  background: white;
+ height: 400px;
+ padding-top: 15px;
+ box-shadow: 0px 0px 20px 0px rgb(52 152 219 / 90%);
+ background: white;
 }
 
 .services .title {
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-size: 18px;
-  position: relative;
-  padding-bottom: 15px;
+ font-weight: 600;
+ margin-bottom: 15px;
+ font-size: 18px;
+ position: relative;
+ padding-bottom: 15px;
 }
 
 .services .title a {
-  color: #444444;
-  transition: 0.3s;
+ color: #444444;
+ transition: 0.3s;
 }
 
 .services .title a:hover {
-  color: #3498db;
+ color: #3498db;
 }
 
 .services .title::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: #3498db;
-  bottom: 0;
-  left: calc(50% - 25px);
+ content: '';
+ position: absolute;
+ display: block;
+ width: 50px;
+ height: 2px;
+ background: #3498db;
+ bottom: 0;
+ left: calc(50% - 25px);
 }
 
 .services .description {
-  line-height: 24px;
-  font-size: 14px;
-  text-align: justify;
+ line-height: 24px;
+ font-size: 14px;
+ font-family: helvetica neue,Helvetica,Arial,sans-serif;
+ text-align: left;
 }
 
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-
+.why-us{
+  background-color: aliceblue;
+}
 .why-us .box {
-  padding: 50px 30px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  box-shadow: 0 0 10px 7px rgb(0 0 0 / 3%);
   transition: all ease-in-out 0.3s;
-  height: 350px;
+  height: 280px;
+  background-color: white;
 }
 
 .why-us .box span {
@@ -902,14 +939,14 @@ section {
 
 .why-us .box p {
   color: #848484;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
 }
 
 .why-us .box:hover {
   background: #3498db;
-  padding: 30px 30px 70px 30px;
+  padding: 20px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(52, 152, 219, 0.9);
 }
 
