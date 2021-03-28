@@ -116,6 +116,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 0px;
 }
 
+@media (max-width: 768px) {
+ #header {
+  padding: 10px 20px 5px 5px;
+}
+#header .logo img {
+  max-height: 46px;
+}
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1111,7 +1120,7 @@ section {
   transition: margin 0.2s;
 }
 
-.team .member:hover .member-info {
+/*.team .member:hover .member-info {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
@@ -1120,7 +1129,7 @@ section {
 .team .member:hover .member-info-content {
   margin-top: 0;
   transition: margin 0.4s;
-}
+}*/
 
 .team .member h4 {
   font-weight: 700;
