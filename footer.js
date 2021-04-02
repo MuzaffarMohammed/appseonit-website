@@ -15,9 +15,13 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3  class="appseonit">Appseonit Technologies</h3>
+              <div class="d-flex align-items-center">
+                <img src="${DIR_BACK}assets/img/appseonit_flower_32x32.png" class="img" alt="">
+                <h3  class="appseonit">Appseonit Technologies <br>Private Limited</h3>
+               
+              </div>
               <p>
-                Hyderabad, Telangana-500053, India<br><br>
+                Hyderabad, Telangana-500053, India<br>
                 <strong>Phone:</strong> +91 9908388809<br>
                 <strong>Email:</strong> support@appseonit.com<br>
               </p>
