@@ -566,9 +566,24 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .firstBanner_leftImg{
-	margin-top:110px; 
-	float:left;
+#hero .slide1-row1{
+  padding-top: 150px;
+}
+
+#hero .leftImg{
+  margin-top: 10px;
+  width:460px;
+  height: 350px;
+}
+
+#hero .firstBoxImg{
+  width:564px;
+  height: 340px;
+}
+
+#hero .mockupDevicesImg{
+  width:265px;
+  height: 120px;
 }
 
 #hero .slide2 img{
@@ -584,11 +599,34 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; 
 }
 
-@media (max-width: 768px) {
-  #hero .firstBanner_leftImg {
-    margin-top:20px; 
-	  float:center;
+@media (max-width: 1024px) {
+  #hero .firstBoxImg{
+    width:450px;
+    height: 340px;
   }
+}
+@media (max-width: 768px) {
+  #hero .slide1-row1{
+    padding-top: 40px;
+  }
+  #hero .leftImg{
+    margin-top:0px; 
+    width:270px;
+    height:200px;
+  }
+
+  #hero .firstBoxImg{
+    margin-top:0px; 
+    width:270px;
+    height:200px;
+  }
+
+  #hero .mockupDevicesImg{
+    margin-top: 80px;
+    width:220px;
+    height: 100px;
+  }
+
   #hero .carousel-inner .active, #hero .carousel-inner .carousel-item-next.carousel-item-left, #hero .carousel-inner .carousel-item-prev.carousel-item-right {
     background: -webkit-linear-gradient(to bottom, #1cb5e0, #000046); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom,  #1cb5e0, #000046);
@@ -640,22 +678,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .carouselBottomBanner_DownImg{
-	margin-top:-90px;
-}
-
 @media (max-width: 1440px) {
   #hero .carouselBottomBanner_DownImg {
     margin-top:-65px; 
-  }
-}
-
-@media (max-width: 768px) {
-  #hero .carouselBottomBanner_DownImg {
-    margin-top:40px; 
-	float:center;
-	height:100%;
-	width:100%;
   }
 }
 
