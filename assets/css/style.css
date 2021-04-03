@@ -653,6 +653,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .slide2 h2,#hero .slide3 h2{
     font-size: 18px;
+    padding-top: 30px;
   }
 
   #hero .slide2 p,#hero .slide3 p{
