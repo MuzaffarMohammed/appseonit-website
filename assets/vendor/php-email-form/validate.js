@@ -3,6 +3,8 @@
   //Contact
   $('form.php-email-form').submit(function(e) {
     e.preventDefault();
+
+    console.log('Sending Mail....')
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
