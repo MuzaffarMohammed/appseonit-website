@@ -1,7 +1,7 @@
 !(function($) {
   "use strict";
   //Contact
-  $('form.php-email-form').submit(function() {
+  $('form.php-email-form').submit(function(e) {
     e.preventDefault();
     var f = $(this).find('.form-group'),
       ferror = false,
