@@ -118,6 +118,7 @@
     $.ajax({
       type: "POST",
       url: "https://appseonit-mail.herokuapp.com/send",
+      headers: { 'Content-Type': 'application/json'},
       data: data,
       timeout: 40000
     }).done( function(msg){
