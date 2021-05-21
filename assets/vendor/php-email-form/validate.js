@@ -105,22 +105,54 @@ jQuery(document).ready(function($) {
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
     
+    var data = {
+      "clientId": "0",
+      "name": this_form.find('.form-control')[0].value,
+      "email":this_form.find('.form-control')[1].value,
+      "subject":this_form.find('.form-control')[2].value,
+      "message":this_form.find('.form-control')[3].value
+    }
+      mail(this_form, action, data);
+      return true;
+  });
+
+  function mail(this_form, action, data) {
     $.ajax({
       type: "POST",
-      url: action,
-      data: str,
-      success: function(msg) {
-        if (msg == 'OK') {
-          this_form.find('.loading').slideUp();
-          this_form.find('.sent-message').slideDown();
-          this_form.find("input:not(input[type=submit]), textarea").val('');
-        } else {
-          this_form.find('.loading').slideUp();
-          this_form.find('.error-message').slideDown().html(msg);
+      url: "https://appseonit-mail.herokuapp.com/send",
+      data: data,
+      timeout: 40000
+    }).done( function(msg){
+      if (msg.trim() == 'OK') {
+        this_form.find('.loading').slideUp();
+        this_form.find('.sent-message').slideDown();
+        this_form.find("input:not(input[type=submit]), textarea").val('');
+      } else {
+        this_form.find('.loading').slideUp();
+        if(!msg) {
+          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
         }
+        this_form.find('.error-message').slideDown().html(msg);
       }
+    }).fail( function(data){
+      console.log(data);
+      var error_msg = "Form submission failed!<br>";
+      if(data.statusText || data.status) {
+        error_msg += 'Status:';
+        if(data.statusText) {
+          error_msg += ' ' + data.statusText;
+        }
+        if(data.status) {
+          error_msg += ' ' + data.status;
+        }
+        error_msg += '<br>';
+      }
+      if(data.responseText) {
+        error_msg += data.responseText;
+      }
+      this_form.find('.loading').slideUp();
+      this_form.find('.error-message').slideDown().html(error_msg);
     });
-    return false;
-  });
+  }
 
 });
