@@ -1,9 +1,8 @@
-jQuery(document).ready(function($) {
+!(function($) {
   "use strict";
-
   //Contact
   $('form.php-email-form').submit(function() {
-   
+    e.preventDefault();
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -90,7 +89,6 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
 
     var this_form = $(this);
     var action = $(this).attr('action');
