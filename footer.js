@@ -74,11 +74,11 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Appseonit Technologies</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Appseonit Technologies Private Limited</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         
-        Designed by <a href="https://www.appseonit.com/"><span class="appseonit">Appseonit Technologies</span></a>
+        Designed by <a href="https://www.appseonit.com/"><span class="appseonit">Appseonit Technologies Private Limited</span></a>
       </div>
     </div>
   </footer>
