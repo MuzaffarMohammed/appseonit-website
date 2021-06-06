@@ -54,9 +54,9 @@
               <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}desktop_application_development.html">Desktop Application Development</a></li>
               <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}web_application_development.html">Web Application Development</a></li>
               <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}cloud_application_development.html">Cloud Application Development</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}website_categories.html#static_website">Static Website Development</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}website_categories.html#dynamic_website">Dynamic Website Development</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}website_categories.html#e-commerce_website">E-commerce Website Development</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}static_website_development.html">Static Website Development</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}dynamic_website_development.html">Dynamic Website Development</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}e-commerce_website_development.html">E-commerce Website Development</a></li>
               <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}digital_marketing.html">Digital Marketing</a></li>
             </ul>
           </div>
