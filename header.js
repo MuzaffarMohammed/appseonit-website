@@ -19,9 +19,9 @@ function addHeaderMenus(){
             <li class="drop-down">
                 <a href="${URI}website_categories.html">Web Design</a>
                 <ul>
-                  <li><a href="${URI}website_categories.html#static_website">Static Website Development</a></li>
-                  <li><a href="${URI}website_categories.html#dynamic_website">Dynamic Website Development</a></li>
-                  <li><a href="${URI}website_categories.html#e-commerce_website">E-commerce Website Development</a></li>
+                  <li><a href="${URI}static_website_development.html">Static Website Development</a></li>
+                  <li><a href="${URI}dynamic_website_development.html">Dynamic Website Development</a></li>
+                  <li><a href="${URI}e-commerce_website_development.html">E-commerce Website Development</a></li>
                 </ul>
             </li>
             <li class="drop-down">
@@ -38,13 +38,13 @@ function addHeaderMenus(){
             <li class="drop-down">
                 <a href="${URI}digital_marketing.html">Digital Marketing</a>
                 <ul>
-                  <li><a href="${URI}digital_marketing.html#searchEngineOptimization">Search Engine Optimization</a></li>
-                  <li><a href="${URI}digital_marketing.html#searchEngineMarketing">Search Engine Marketing</a></li>
-                  <li><a href="${URI}digital_marketing.html#socialMediaoptimization">Social Media Optimization</a></li>
-                  <li><a href="${URI}digital_marketing.html#socialMediaMarketing">Social Media Marketing</a></li>
-                  <li><a href="${URI}digital_marketing.html#googleAnalytics">Google Analytics</a></li>
-                  <li><a href="${URI}digital_marketing.html#googleAds">Google Ads</a></li>
-                  <li><a href="${URI}digital_marketing.html#emailMarketing">Email Marketing</a></li>
+                  <li><a href="${URI}search_engine_optimization.html">Search Engine Optimization</a></li>
+                  <li><a href="${URI}search_engine_marketing.html">Search Engine Marketing</a></li>
+                  <li><a href="${URI}social_media_optimization.html">Social Media Optimization</a></li>
+                  <li><a href="${URI}social_media_marketing.html">Social Media Marketing</a></li>
+                  <li><a href="${URI}google_analytics.html">Google Analytics</a></li>
+                  <li><a href="${URI}google_ads.html">Google Ads</a></li>
+                  <li><a href="${URI}email_marketing.html">Email Marketing</a></li>
                 </ul>
             </li>
             <li><a href="${URI}about.html">About</a></li>
