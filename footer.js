@@ -16,7 +16,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <div class="d-flex align-items-center">
-                <img src="${DIR_BACK}assets/img/appseonit_flower_32x32.png" class="img" alt="">
+                <img src="${DIR_BACK}assets/img/appseonit_flower_32x32.png" class="img" alt="Software Development Cycle">
                 <h3  class="appseonit">Appseonit Technologies <br>Private Limited</h3>
                
               </div>
@@ -26,10 +26,10 @@
                 <strong>Email:</strong> support@appseonit.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><img src="${DIR_BACK}assets/img/socialmedia/twitter.png"/></a>
-                <a href="#" class="facebook"><img src="${DIR_BACK}assets/img/socialmedia/facebook.png"/></a>
-                <a href="#" class="instagram"><img src="${DIR_BACK}assets/img/socialmedia/instagram.png"/></a>
-                <a href="#" class="linkedin"><img src="${DIR_BACK}assets/img/socialmedia/linkedin.png"/></a>
+                <a href="#" class="twitter"><img src="${DIR_BACK}assets/img/socialmedia/twitter.png" alt='Twitter'/></a>
+                <a href="#" class="facebook"><img src="${DIR_BACK}assets/img/socialmedia/facebook.png" alt='Facebook'/></a>
+                <a href="#" class="instagram"><img src="${DIR_BACK}assets/img/socialmedia/instagram.png" alt='Instagram'/></a>
+                <a href="#" class="linkedin"><img src="${DIR_BACK}assets/img/socialmedia/linkedin.png" alt='Linkedin'/></a>
               </div>
             </div>
           </div>
@@ -37,11 +37,11 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${DIR_BACK}index.html">Home</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}about.html">About us</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${DIR_BACK}index.html#services">Services</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}">Terms of service</a></li>
-              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png"/><a href="${URI}index.html#">Privacy policy</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png" alt="Home"/><a href="${DIR_BACK}index.html">Home</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png" alt="About Us"/><a href="${URI}about.html">About Us</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png" alt="Services"/><a href="${DIR_BACK}index.html#services">Services</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png" alt="Terms of Service"/><a href="${URI}">Terms of Service</a></li>
+              <li><img src="${DIR_BACK}assets/img/socialmedia/chevron-right.png" alt="Privacy Policy"/><a href="${URI}index.html#">Privacy Policy</a></li>
             </ul>
           </div>
 
