@@ -26,9 +26,9 @@
                 <strong>Email:</strong> support@appseonit.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><img src="${DIR_BACK}assets/img/socialmedia/twitter.png" alt='Twitter'/></a>
-                <a href="#" class="facebook"><img src="${DIR_BACK}assets/img/socialmedia/facebook.png" alt='Facebook'/></a>
-                <a href="#" class="instagram"><img src="${DIR_BACK}assets/img/socialmedia/instagram.png" alt='Instagram'/></a>
+                <a href="https://twitter.com/appseonit" class="twitter"><img src="${DIR_BACK}assets/img/socialmedia/twitter.png" alt='Twitter'/></a>
+                <a href="https://www.facebook.com/Appseonit" class="facebook"><img src="${DIR_BACK}assets/img/socialmedia/facebook.png" alt='Facebook'/></a>
+                <a href="https://www.instagram.com/appseonit.technologies/" class="instagram"><img src="${DIR_BACK}assets/img/socialmedia/instagram.png" alt='Instagram'/></a>
                 <a href="#" class="linkedin"><img src="${DIR_BACK}assets/img/socialmedia/linkedin.png" alt='Linkedin'/></a>
               </div>
             </div>
