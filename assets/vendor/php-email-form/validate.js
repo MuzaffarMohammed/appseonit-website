@@ -1,7 +1,7 @@
-!(function($) {
+$(function() {
   "use strict";
   //Contact
-  $('form.php-email-form').submit(function(e) {
+  $('#php-email-form').submit(function(e) {
     e.preventDefault();
 
     console.log('Sending Mail....')
@@ -93,30 +93,30 @@
     if (ferror) return false;
 
     var this_form = $(this);
-    var action = $(this).attr('action');
+    // var action = $(this).attr('action');
 
-    if( ! action ) {
-      this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html('The form action property is not set!');
-      return false;
-    }
+    // if( ! action ) {
+    //   this_form.find('.loading').slideUp();
+    //   this_form.find('.error-message').slideDown().html('The form action property is not set!');
+    //   return false;
+    // }
     
     this_form.find('.sent-message').slideUp();
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
     
     var data = {
-      "clientId": "0",
+      "clientId": "1",
       "name": this_form.find('.form-control')[0].value,
       "email":this_form.find('.form-control')[1].value,
       "subject":this_form.find('.form-control')[2].value,
       "message":this_form.find('.form-control')[3].value
     }
-      mail(this_form, action, data);
+      mail(this_form, data);
       return true;
   });
 
-  function mail(this_form, action, data) {
+  function mail(this_form, data) {
     $.ajax({
       type: "POST",
       url: "https://appseonit-mail.herokuapp.com/send",
@@ -130,7 +130,7 @@
       } else {
         this_form.find('.loading').slideUp();
         if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+          msg = 'Form submission failed and no error message returned from: Server<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
       }
