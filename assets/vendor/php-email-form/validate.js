@@ -119,7 +119,7 @@ $(function() {
   function mail(this_form, data) {
     $.ajax({
       type: "POST",
-      url: "https://appseonit-mail-server.netlify.app/send",
+      url: "https://appseonit-mail-service.netlify.app/send",
       data: data,
       timeout: 40000
     }).done( function(msg){
