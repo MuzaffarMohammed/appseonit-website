@@ -22,7 +22,7 @@
               </div>
               <p>
                 Hyderabad, Telangana-500053, India<br>
-                <strong>Phone:</strong> +91 9908388809<br>
+                <strong>Phone:</strong> +91 8686992838<br>
                 <strong>Email:</strong> support@appseonit.com<br>
               </p>
               <div class="social-links mt-3">
