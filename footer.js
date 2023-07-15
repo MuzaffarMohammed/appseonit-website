@@ -23,7 +23,7 @@
               <p>
                 Hyderabad, Telangana-500053, India<br>
                 <strong>Phone:</strong> +91 8686992838<br>
-                <strong>Email:</strong> support@appseonit.com<br>
+                <strong>Email:</strong> help.appseonit@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="https://twitter.com/appseonit" class="twitter"><img src="${DIR_BACK}assets/img/socialmedia/twitter.png" alt='Twitter'/></a>
